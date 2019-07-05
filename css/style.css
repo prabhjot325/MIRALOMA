@@ -154,7 +154,7 @@ ul.list1 {
 
 ul.list1 li {
     position: relative;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 18px;
     padding-left: 45px;
 }
@@ -529,7 +529,8 @@ ul.list.l1 time {
 }
 
 .bq2+.bq2 {
-    margin-top: 46px;
+    margin-top: 4px;
+    color:#60bf93;
 }
 
 .bq2 .bq_bot {
@@ -722,3 +723,12 @@ img.logo {
 max-width: 50%;
 }
 
+  #top, .page1 {
+                background: -moz-linear-gradient(272deg, rgba(255,214,173,0.5) 0%, rgba(215,255,184,0.75) 50%, rgba(246,255,245,1) 100%); 
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(255,214,173,0.5)), color-stop(50%, rgba(215,255,184,0.75)), color-stop(100%, rgba(246,255,245,1))); 
+                background: -webkit-linear-gradient(272deg, rgba(255,214,173,0.5) 0%, rgba(215,255,184,0.75) 50%, rgba(246,255,245,1) 100%); 
+                background: -o-linear-gradient(272deg, rgba(255,214,173,0.5) 0%, rgba(215,255,184,0.75) 50%, rgba(246,255,245,1) 100%);
+                background: -ms-linear-gradient(272deg, rgba(255,214,173,0.5) 0%, rgba(215,255,184,0.75) 50%, rgba(246,255,245,1) 100%); 
+                background: linear-gradient(178deg, rgba(255,214,173,0.5) 0%, rgba(215,255,184,0.75) 50%, rgba(246,255,245,1) 100%); 
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFD6AD', endColorstr='#F6FFF5',GradientType=0 ); 
+            }
